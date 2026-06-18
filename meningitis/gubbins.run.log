@@ -1,0 +1,885 @@
+/opt/conda/envs/gubbins/lib/python3.10/site-packages/gubbins/__init__.py:12: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190683_1930355 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190684_1930356 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190685_1930358 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429874 and SAMEA113563123 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429896 and SAMEA113563127 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file gubbins.out.aln.snp_sites.aln.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2539 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.37%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2539
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -safe -m GTRGAMMA -p 7105 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_1_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_1.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9 
+
+
+
+WARNING the alpha parameter with a value of 11.066347 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 23.671794 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 50.233306 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 106.593720 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 218.699337 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 469.040539 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 999.885023 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 1000.000000 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+Model parameters (binary file format) written to: /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_binaryModelParameters.gubbins.out.iteration_1_reconstruction
+5.174050 -70611.994852
+
+
+Overall Time for Tree Evaluation 5.174628
+Final GAMMA  likelihood: -70611.994852
+
+Number of free parameters for AIC-TEST(BR-LEN): 216
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 1000.000000
+Tree-Length: 1.362006
+rate A <-> C: 0.911620
+rate A <-> G: 5.695964
+rate A <-> T: 0.373658
+rate C <-> G: 0.398255
+rate C <-> T: 5.803959
+rate G <-> T: 1.000000
+
+freq pi(A): 0.216588
+freq pi(C): 0.274472
+freq pi(G): 0.291396
+freq pi(T): 0.217544
+
+Final tree written to:                 /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_result.gubbins.out.iteration_1_reconstruction
+Execution Log File written to:         /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_log.gubbins.out.iteration_1_reconstruction
+
+--- Gubbins 3.4.3 ---
+
+Croucher N. J., Page A. J., Connor T. R., Delaney A. J., Keane J. A., Bentley S. D., Parkhill J., Harris S.R. "Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins". Nucleic Acids Res. 2015 Feb 18;43(3):e15. doi: 10.1093/nar/gku1196.
+
+Checking dependencies and input files...
+
+Checking input alignment file...
+
+Filtering input alignment...
+...done. Run time: 6.13 s
+
+Running Gubbins to detect SNPs...
+gubbins "gubbins.out.aln"
+...done. Run time: 8.16 s
+
+Entering the main loop.
+
+*** Iteration 1 ***
+Entering working directory /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Constructing the phylogenetic tree with raxmlHPC...
+raxmlHPC -safe -m GTRGAMMA  -p 8607 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_1 > /dev/null 2>&1
+...done. Run time: 71.02 s
+
+Reconstructing ancestral sequences with pyjar...
+
+Fitting substitution model to tree...
+raxmlHPC -safe -m GTRGAMMA  -p 7105 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_1_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_1.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Running joint ancestral reconstruction with pyjar
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190683_1930355 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190684_1930356 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190685_1930358 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429874 and SAMEA113563123 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429896 and SAMEA113563127 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file gubbins.out.aln.snp_sites.aln.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2539 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.37%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2539
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -safe -m GTRGAMMA -p 9705 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_2_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_2.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9 
+
+
+
+WARNING the alpha parameter with a value of 10.669079 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 22.316690 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 45.752654 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 92.198707 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 172.288286 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 333.906071 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 670.317046 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 999.840694 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+Model parameters (binary file format) written to: /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_binaryModelParameters.gubbins.out.iteration_2_reconstruction
+4.983820 -71595.331471
+
+
+Overall Time for Tree Evaluation 4.984405
+Final GAMMA  likelihood: -71595.331471
+
+Number of free parameters for AIC-TEST(BR-LEN): 216
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 999.840694
+Tree-Length: 1.393096
+rate A <-> C: 0.892491
+rate A <-> G: 5.667570
+rate A <-> T: 0.369723
+rate C <-> G: 0.398809
+rate C <-> T: 5.745790
+rate G <-> T: 1.000000
+
+freq pi(A): 0.216588
+freq pi(C): 0.274472
+freq pi(G): 0.291396
+freq pi(T): 0.217544
+
+Final tree written to:                 /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_result.gubbins.out.iteration_2_reconstruction
+Execution Log File written to:         /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_log.gubbins.out.iteration_2_reconstruction
+
+Transferring pyjar results onto original recombination-corrected tree
+
+Done transfer
+...done. Run time: 78.67 s
+
+Running Gubbins to detect recombinations...
+gubbins -r -v gubbins.out.aln.gaps.vcf -a 100 -b 10000 -f gubbins.out.aln -t gubbins.out.iteration_1.tre -m 3 -p 0.05 -i 1.0 -n 1 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_1.internal.joint.aln
+...done. Run time: 80.79 s
+
+Checking for convergence...
+...done. Run time: 80.79 s
+
+*** Iteration 2 ***
+Entering working directory /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Constructing the phylogenetic tree with raxmlHPC...
+raxmlHPC -safe -m GTRGAMMA  -p 2696 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_1.tre.snp_sites.aln -n gubbins.out.iteration_2 -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_1.tre > /dev/null 2>&1
+...done. Run time: 105.15 s
+
+Reconstructing ancestral sequences with pyjar...
+
+Fitting substitution model to tree...
+raxmlHPC -safe -m GTRGAMMA  -p 9705 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_2_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_2.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Running joint ancestral reconstruction with pyjar
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190683_1930355 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190684_1930356 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190685_1930358 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429874 and SAMEA113563123 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429896 and SAMEA113563127 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file gubbins.out.aln.snp_sites.aln.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2539 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.37%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2539
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -safe -m GTRGAMMA -p 879 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_3_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_3.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9 
+
+
+
+WARNING the alpha parameter with a value of 10.655808 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 22.156455 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 44.947311 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 88.885220 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 171.660671 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 310.645711 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 560.862233 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 992.660902 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+Model parameters (binary file format) written to: /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_binaryModelParameters.gubbins.out.iteration_3_reconstruction
+4.795621 -71612.985528
+
+
+Overall Time for Tree Evaluation 4.796133
+Final GAMMA  likelihood: -71612.985528
+
+Number of free parameters for AIC-TEST(BR-LEN): 216
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 992.660902
+Tree-Length: 1.394612
+rate A <-> C: 0.891976
+rate A <-> G: 5.671477
+rate A <-> T: 0.371882
+rate C <-> G: 0.399630
+rate C <-> T: 5.744702
+rate G <-> T: 1.000000
+
+freq pi(A): 0.216588
+freq pi(C): 0.274472
+freq pi(G): 0.291396
+freq pi(T): 0.217544
+
+Final tree written to:                 /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_result.gubbins.out.iteration_3_reconstruction
+Execution Log File written to:         /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_log.gubbins.out.iteration_3_reconstruction
+
+Transferring pyjar results onto original recombination-corrected tree
+
+Done transfer
+...done. Run time: 112.49 s
+
+Running Gubbins to detect recombinations...
+gubbins -r -v gubbins.out.aln.gaps.vcf -a 100 -b 10000 -f gubbins.out.aln -t gubbins.out.iteration_2.tre -m 3 -p 0.05 -i 1.0 -n 1 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_2.internal.joint.aln
+...done. Run time: 114.65 s
+
+Checking for convergence...
+...done. Run time: 114.65 s
+
+*** Iteration 3 ***
+Entering working directory /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Constructing the phylogenetic tree with raxmlHPC...
+raxmlHPC -safe -m GTRGAMMA  -p 4084 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_2.tre.snp_sites.aln -n gubbins.out.iteration_3 -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_2.tre > /dev/null 2>&1
+...done. Run time: 135.33 s
+
+Reconstructing ancestral sequences with pyjar...
+
+Fitting substitution model to tree...
+raxmlHPC -safe -m GTRGAMMA  -p 879 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_3_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_3.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Running joint ancestral reconstruction with pyjar
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190683_1930355 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190684_1930356 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190685_1930358 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429874 and SAMEA113563123 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429896 and SAMEA113563127 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file gubbins.out.aln.snp_sites.aln.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2539 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.37%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2539
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -safe -m GTRGAMMA -p 491 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_4_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_4.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9 
+
+
+
+WARNING the alpha parameter with a value of 10.637986 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 22.095656 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 44.728345 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 88.059790 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 168.540921 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 298.063320 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 515.414015 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 829.334015 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+Model parameters (binary file format) written to: /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_binaryModelParameters.gubbins.out.iteration_4_reconstruction
+5.303193 -71191.879098
+
+
+Overall Time for Tree Evaluation 5.303791
+Final GAMMA  likelihood: -71191.879098
+
+Number of free parameters for AIC-TEST(BR-LEN): 216
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 829.334015
+Tree-Length: 1.384613
+rate A <-> C: 0.886551
+rate A <-> G: 5.660646
+rate A <-> T: 0.368297
+rate C <-> G: 0.398320
+rate C <-> T: 5.750780
+rate G <-> T: 1.000000
+
+freq pi(A): 0.216588
+freq pi(C): 0.274472
+freq pi(G): 0.291396
+freq pi(T): 0.217544
+
+Final tree written to:                 /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_result.gubbins.out.iteration_4_reconstruction
+Execution Log File written to:         /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_log.gubbins.out.iteration_4_reconstruction
+
+Transferring pyjar results onto original recombination-corrected tree
+
+Done transfer
+...done. Run time: 142.52 s
+
+Running Gubbins to detect recombinations...
+gubbins -r -v gubbins.out.aln.gaps.vcf -a 100 -b 10000 -f gubbins.out.aln -t gubbins.out.iteration_3.tre -m 3 -p 0.05 -i 1.0 -n 1 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_3.internal.joint.aln
+...done. Run time: 144.66 s
+
+Checking for convergence...
+...done. Run time: 144.68 s
+
+*** Iteration 4 ***
+Entering working directory /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Constructing the phylogenetic tree with raxmlHPC...
+raxmlHPC -safe -m GTRGAMMA  -p 5729 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_3.tre.snp_sites.aln -n gubbins.out.iteration_4 -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_3.tre > /dev/null 2>&1
+...done. Run time: 163.89 s
+
+Reconstructing ancestral sequences with pyjar...
+
+Fitting substitution model to tree...
+raxmlHPC -safe -m GTRGAMMA  -p 491 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_4_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_4.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Running joint ancestral reconstruction with pyjar
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190683_1930355 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190684_1930356 are exactly identical
+
+
+IMPORTANT WARNING: Sequences 190682_1930357 and 190685_1930358 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429874 and SAMEA113563123 are exactly identical
+
+
+IMPORTANT WARNING: Sequences SAMEA113429896 and SAMEA113563127 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file gubbins.out.aln.snp_sites.aln.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2539 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.37%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2539
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -safe -m GTRGAMMA -p 8440 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_5_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_5.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9 
+
+
+
+WARNING the alpha parameter with a value of 10.637986 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 22.095656 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 44.728345 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 88.059790 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 168.540921 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 298.063320 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 515.414015 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 829.334015 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+Model parameters (binary file format) written to: /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_binaryModelParameters.gubbins.out.iteration_5_reconstruction
+5.309848 -71191.879098
+
+
+Overall Time for Tree Evaluation 5.310925
+Final GAMMA  likelihood: -71191.879098
+
+Number of free parameters for AIC-TEST(BR-LEN): 216
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 829.334015
+Tree-Length: 1.384613
+rate A <-> C: 0.886551
+rate A <-> G: 5.660646
+rate A <-> T: 0.368297
+rate C <-> G: 0.398320
+rate C <-> T: 5.750780
+rate G <-> T: 1.000000
+
+freq pi(A): 0.216588
+freq pi(C): 0.274472
+freq pi(G): 0.291396
+freq pi(T): 0.217544
+
+Final tree written to:                 /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_result.gubbins.out.iteration_5_reconstruction
+Execution Log File written to:         /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/RAxML_log.gubbins.out.iteration_5_reconstruction
+
+Transferring pyjar results onto original recombination-corrected tree
+
+Done transfer
+...done. Run time: 171.60 s
+
+Running Gubbins to detect recombinations...
+gubbins -r -v gubbins.out.aln.gaps.vcf -a 100 -b 10000 -f gubbins.out.aln -t gubbins.out.iteration_4.tre -m 3 -p 0.05 -i 1.0 -n 1 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_4.internal.joint.aln
+...done. Run time: 173.74 s
+
+Checking for convergence...
+...done. Run time: 173.76 s
+
+*** Iteration 5 ***
+Entering working directory /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Constructing the phylogenetic tree with raxmlHPC...
+raxmlHPC -safe -m GTRGAMMA  -p 2595 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_4.tre.snp_sites.aln -n gubbins.out.iteration_5 -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_4.tre > /dev/null 2>&1
+...done. Run time: 193.06 s
+
+Reconstructing ancestral sequences with pyjar...
+
+Fitting substitution model to tree...
+raxmlHPC -safe -m GTRGAMMA  -p 8440 -s gubbins.out.aln.snp_sites.aln -n gubbins.out.iteration_5_reconstruction -t /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_5.tre.rooted -f e -w /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9
+
+Running joint ancestral reconstruction with pyjar
+
+Transferring pyjar results onto original recombination-corrected tree
+
+Done transfer
+...done. Run time: 200.78 s
+
+Running Gubbins to detect recombinations...
+gubbins -r -v gubbins.out.aln.gaps.vcf -a 100 -b 10000 -f gubbins.out.aln -t gubbins.out.iteration_5.tre -m 3 -p 0.05 -i 1.0 -n 1 -s /Volumes/samsung256/Work/ATB/Meningitis/tmpgz32p0r9/gubbins.out.iteration_5.internal.joint.aln
+...done. Run time: 202.91 s
+
+Checking for convergence...
+...done. Run time: 202.96 s
+Maximum number of iterations (5) reached.
+
+Exiting the main loop.
+
+Creating the final output...
+...finished. Total run time: 202.99 s
